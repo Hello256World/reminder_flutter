@@ -1,0 +1,37 @@
+name: reminder_flutter
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.4
+  msh_checkbox: ^2.0.1
+  time_pickerr: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.11
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: SM
+      fonts:
+        - asset: fonts/ShabnamMedium.ttf
